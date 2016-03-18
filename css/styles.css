@@ -3,6 +3,7 @@
   max-width: 30%;
   float: right;
   margin-right: 35px;
+  border-radius: 20px;
 }
 
 .myname{
@@ -23,8 +24,13 @@
 }
 
 .projectinfo {
-  background-color: #dee2e3;
+  background-color: #d7e8f7;
   max-width: 900px;
+}
+
+.projectinfo h4 {
+  font-family: sans-serif;
+  font-weight: 200;
 }
 
 
@@ -48,6 +54,7 @@
   max-width: 900px;
   min-height: 175px;
   max-height: 371px;
+  margin-bottom: 0;
   background-image: url(../img/sunrise.jpg);
   background-position: bottom;;
   background-size: cover;
@@ -57,4 +64,19 @@
 
 .jumbotron h1{
   font-size: 30px;
+}
+
+.maincontent .intro {
+  background-color: #6e8eba;
+  margin-top: 0;
+  padding-top: 30px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  min-width: 100%;
+  max width: 900px;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
 }
