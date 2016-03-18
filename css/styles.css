@@ -83,8 +83,9 @@
 }
 
 .projectinfo {
-  background-color: #d7e8f7;
+  background-color: rgba(91,192,222,.8);
   max-width: 900px;
+
 }
 
 .projectinfo {
@@ -134,20 +135,51 @@
 
 ul{
   list-style: none;
+  font-weight: bold;
+  color: #42648f;
 }
 
-ol {
+ol{
   padding-top: 10px;
   list-style: none;
+  font-weight: bold;
+  color: #42648f;
+}
+
+.maincontent p{
+  font-weight: bold;
+  color: #42648f;
+}
+
+div.intro p{
+  color:black;
+  font-family: sans-serif;
+  font-weight: normal;
 }
 
 /*Footer
 ==============*/
 
 .footer {
-  height: 12em;
-  padding: 4em;
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  height: 9em;
+  padding: 3em;
+  padding-bottom: 3em;
   max-width: 900px;
   margin-bottom: 0;
-  background-color: #5bc0de;
+  background-color: rgba(91,192,222,.8);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+
+}
+
+#icons li{
+display: inline;
+}
+
+.fa {
+  color: #42648f;
+  font-size: 2em;
 }
